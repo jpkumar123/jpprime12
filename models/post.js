@@ -14,8 +14,8 @@ const Post = sequelize.define("post", {
         type: Sequelize.STRING
     },
     user_id:{
-        type: Sequelize.INTEGER55
-    },
+        type: Sequelize.INTEGER
+    }
 
     });
 
